@@ -8,7 +8,6 @@
 import Foundation
 import FirebaseFirestore
 
-//AddDriverViewModel
 struct Profile: Identifiable, Equatable {
     var id: String = UUID().uuidString
     var name: String
