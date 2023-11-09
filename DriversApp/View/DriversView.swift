@@ -32,11 +32,6 @@ struct DriversView: View {
                             }
                         }
                     }
-//                    Button {
-//                        print(viewModel.drivers.count)
-//                    } label: {
-//                        Text("Кол-во водителей")
-//                    }
                 }
 
                 .navigationTitle("Водители")

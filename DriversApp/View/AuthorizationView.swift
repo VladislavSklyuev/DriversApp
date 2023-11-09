@@ -24,7 +24,7 @@ struct AuthorizationView: View {
 
                 
                 VStack(spacing: 8) {
-                    TextField("Логин", text: $viewModel.login)
+                    TextField("Почта", text: $viewModel.login)
                         .font(.custom("Montserrat-Regular", size: 18))
                         .foregroundColor(.black)
                         .padding(12)

@@ -19,17 +19,10 @@ struct Driver: Identifiable, Hashable {
     var dateOfdriverLic: Date
     var driverLicExpDate: Date
     var raiting: Double
-    
-    
 //    var dateOfdriverLic: String
 //    var driverLicExpDate: String
 
 }
-
-//extension Driver {
-//    static var drivers: [Driver] = [Driver(surname: "Николаев", name: "Николай", lastname: "Николаевич")]
-//}
-
 
 extension Driver {
     init?(snapshot: QueryDocumentSnapshot) {
@@ -56,7 +49,6 @@ extension Driver {
         self.birthDay = birthDay.dateValue()
         self.dateOfdriverLic = dateOfdriverLic.dateValue()
         self.driverLicExpDate = driverLicExpDate.dateValue()
-        
     }
 }
 
